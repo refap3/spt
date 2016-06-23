@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+
+# refap3: change speedtest directory in curl below to use ANOTHER spreadsheet file !
+# ----------------------------------------------------------------------------------
 ###########################################################################
 # Originally written by: Henrik Bengtsson, 2014
 # https://github.com/HenrikBengtsson/speedtest-cli-extras
