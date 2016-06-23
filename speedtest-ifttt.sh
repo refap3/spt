@@ -82,9 +82,9 @@ if test "$1" = "--standardize"; then
 fi
 
 # Send to IFTTT
-secret_key="DJdMuNty1vSvJMs5M0QLa"
+sec_k="DJdMuNty1vSvJMs5M0QLa"
 value1=`echo $server_ping | cut -d" " -f1`
 value2=`echo $download | cut -d" " -f1`
 value3=`echo $upload | cut -d" " -f1` 
 json="{\"value1\":\"${value1}\",\"value2\":\"${value2}\",\"value3\":\"${value3}\"}"
-curl -X POST -H "Content-Type: application/json" -d "${json}" https://maker.ifttt.com/trigger/speedtest/with/key/${secret_key}  
+curl -X POST -H "Content-Type: application/json" -d "${json}" https://maker.ifttt.com/trigger/speedtest/with/key/${sec_k}  
