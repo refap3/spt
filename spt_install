@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo apt-get install python-pip -y
+sudo apt-get install curl -y
+sudo pip install speedtest-cli
