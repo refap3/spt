@@ -1,5 +1,5 @@
 #!/bin/bash 
-date >>/home/debian8/spt/speedtest.log
-/home/debian8/spt/speedtest-ifttt.sh  >> /home/debian8/spt/speedtest.log
-echo "" >> /home/debian8/spt/speedtest.log
+date >>/home/$USER/spt/speedtest.log
+/home/$USER/spt/speedtest-ifttt.sh  >> /home/$USER/spt/speedtest.log
+echo "" >> /home/$USER/spt/speedtest.log
 
