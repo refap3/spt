@@ -1,4 +1,13 @@
 #!/bin/bash
+#
+# reference link: http://makezine.com/projects/send-ticket-isp-when-your-internet-drops/
+# MUST edit this for other than debian8 user ...
 sudo apt-get install python-pip -y
 sudo apt-get install curl -y
 sudo pip install speedtest-cli
+# add crontab 
+crontab -l >tmp
+echo "0 * * * * /home/debian8/spt/speedtest-cron.sh" >>tmp
+crontab tmp 
+rm tmp 
+crontab -l
