@@ -82,7 +82,7 @@ if test "$1" = "--standardize"; then
 fi
 
 # Send to IFTTT
-sec_k="DJdMuNty1vSvJMs5M0QLa"
+sec_k="DJdMuNty1vSvJMs5M0QLa" # houmn ciWvgxkkckKvU8w42Dm1Uq
 value1=`echo $server_ping | cut -d" " -f1`
 value2=`echo $download | cut -d" " -f1`
 value3=`echo $upload | cut -d" " -f1` 
